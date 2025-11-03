@@ -48,14 +48,34 @@ p{
   
 }  
 
-.home h2 {
-  color: yellow;
-}  
+
+.home p{ 
+  text-align: center;
+}
+
 img{
   margin-right: auto; 
   font-size: auto;
 }
-.home{ 
+.about{
+  text-align: center;
+}
+.about p{
+  text-align: center;
+}
+.about h2{ 
+  color: yellow; 
+  
+}
+  
+
+.about p {
+  
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+} 
+.about{ 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -100,26 +120,31 @@ img{
         flex: 1; 
         height: 150px; 
         width: auto; 
-        background-color: rgb(43, 8, 8);
+        background-color: rgb(211, 84, 84);
     
+    }  
+    .item7{
+        flex: 1; 
+        height: 150px; 
+        width: auto; 
+        background-color: rgb(192, 12, 12);
+    } 
+    .item8{
+        flex: 1; 
+        height: 150px; 
+        width: auto; 
+        background-color: rgb(102, 79, 79);
+    } 
+    .item9{
+        flex: 1; 
+        height: 150px; 
+        width: auto; 
+        background-color: rgb(167, 117, 117);
     }
+    
+
 } 
 
-
-h2{ 
-    
-    color: yellow; 
-    text-align: center;
-}
-  
-  
-
-.about p {
-  
-  text-align: center;
-  max-width: 600px;
-  margin: 20px auto;
-}
 
 
 .contact {
